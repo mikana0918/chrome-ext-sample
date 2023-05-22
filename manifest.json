@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Native Messaging Example",
+    "description": "Native Messaging Example chrome extension using manifest v3",
+    "version": "0.0.1",
+    "action": {
+        "default_title": "Native Messaging Example",
+        "default_popup": "popup.html"
+    },
+    "permissions": ["nativeMessaging"],
+    "host_permissions": [
+        "*://*/*"
+    ],
+    "background": {
+        "service_worker": "service-worker.js"
+    }
+}

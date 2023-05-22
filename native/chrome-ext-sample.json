@@ -1,0 +1,8 @@
+{
+    "name": "chrome-ext-sample",
+    "description": "Native Message example",
+    "path":"C:\\Users\\shogo\\chrome-ext-sample\\native\\sample.exe",
+    "type": "stdio",
+    "supports_native_initiated_connections": true,
+    "allowed_origins": ["chrome-extension://gdjlobdljcolneebpladiomohamlohke/"]
+}
